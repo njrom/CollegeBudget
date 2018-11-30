@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		AFF5A4EF21B0ACE900F275DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF5A4EE21B0ACE900F275DB /* AppDelegate.swift */; };
-		AFF5A4F121B0ACE900F275DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF5A4F021B0ACE900F275DB /* ViewController.swift */; };
+		AFF5A4F121B0ACE900F275DB /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF5A4F021B0ACE900F275DB /* MainScreenViewController.swift */; };
 		AFF5A4F421B0ACE900F275DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF5A4F221B0ACE900F275DB /* Main.storyboard */; };
 		AFF5A4F621B0ACEA00F275DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFF5A4F521B0ACEA00F275DB /* Assets.xcassets */; };
 		AFF5A4F921B0ACEA00F275DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF5A4F721B0ACEA00F275DB /* LaunchScreen.storyboard */; };
+		AFF5A50121B0BE4500F275DB /* Budget.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF5A50021B0BE4500F275DB /* Budget.swift */; };
+		AFF5A50321B0C09600F275DB /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF5A50221B0C09600F275DB /* Transaction.swift */; };
+		AFF5A50521B0CEF700F275DB /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF5A50421B0CEF700F275DB /* Bank.swift */; };
+		AFF5A50821B0D00800F275DB /* BudgetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF5A50721B0D00800F275DB /* BudgetTableViewCell.swift */; };
+		AFF5A50C21B0FCCF00F275DB /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF5A50B21B0FCCF00F275DB /* CircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AFF5A4EB21B0ACE900F275DB /* CollegeBudget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollegeBudget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFF5A4EE21B0ACE900F275DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AFF5A4F021B0ACE900F275DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFF5A4F021B0ACE900F275DB /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
 		AFF5A4F321B0ACE900F275DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AFF5A4F521B0ACEA00F275DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFF5A4F821B0ACEA00F275DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFF5A4FA21B0ACEA00F275DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFF5A50021B0BE4500F275DB /* Budget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Budget.swift; sourceTree = "<group>"; };
+		AFF5A50221B0C09600F275DB /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		AFF5A50421B0CEF700F275DB /* Bank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
+		AFF5A50721B0D00800F275DB /* BudgetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetTableViewCell.swift; sourceTree = "<group>"; };
+		AFF5A50B21B0FCCF00F275DB /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +65,26 @@
 			isa = PBXGroup;
 			children = (
 				AFF5A4EE21B0ACE900F275DB /* AppDelegate.swift */,
-				AFF5A4F021B0ACE900F275DB /* ViewController.swift */,
+				AFF5A4F021B0ACE900F275DB /* MainScreenViewController.swift */,
 				AFF5A4F221B0ACE900F275DB /* Main.storyboard */,
 				AFF5A4F521B0ACEA00F275DB /* Assets.xcassets */,
 				AFF5A4F721B0ACEA00F275DB /* LaunchScreen.storyboard */,
 				AFF5A4FA21B0ACEA00F275DB /* Info.plist */,
+				AFF5A50721B0D00800F275DB /* BudgetTableViewCell.swift */,
+				AFF5A50621B0CF2600F275DB /* Model */,
+				AFF5A50B21B0FCCF00F275DB /* CircleView.swift */,
 			);
 			path = CollegeBudget;
+			sourceTree = "<group>";
+		};
+		AFF5A50621B0CF2600F275DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AFF5A50021B0BE4500F275DB /* Budget.swift */,
+				AFF5A50221B0C09600F275DB /* Transaction.swift */,
+				AFF5A50421B0CEF700F275DB /* Bank.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFF5A4F121B0ACE900F275DB /* ViewController.swift in Sources */,
+				AFF5A4F121B0ACE900F275DB /* MainScreenViewController.swift in Sources */,
 				AFF5A4EF21B0ACE900F275DB /* AppDelegate.swift in Sources */,
+				AFF5A50521B0CEF700F275DB /* Bank.swift in Sources */,
+				AFF5A50821B0D00800F275DB /* BudgetTableViewCell.swift in Sources */,
+				AFF5A50321B0C09600F275DB /* Transaction.swift in Sources */,
+				AFF5A50C21B0FCCF00F275DB /* CircleView.swift in Sources */,
+				AFF5A50121B0BE4500F275DB /* Budget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
