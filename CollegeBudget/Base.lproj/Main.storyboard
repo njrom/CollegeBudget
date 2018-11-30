@@ -30,11 +30,18 @@
                                             <constraint firstAttribute="height" constant="18" id="GDw-Yi-d85"/>
                                         </constraints>
                                     </view>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="custom – 1-2" highlightedImage="Test" translatesAutoresizingMaskIntoConstraints="NO" id="PaK-h8-hET">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="289.33333333333331"/>
+                                    </imageView>
                                 </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.63307178020477295" green="0.99784260988235474" blue="0.99998468160629272" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstItem="PaK-h8-hET" firstAttribute="leading" secondItem="VpO-6M-8BO" secondAttribute="leading" id="2zB-nu-RhJ"/>
                                     <constraint firstAttribute="trailing" secondItem="g4y-6W-VTd" secondAttribute="trailing" id="LLv-ZL-P4R"/>
+                                    <constraint firstAttribute="trailing" secondItem="PaK-h8-hET" secondAttribute="trailing" id="MMa-Vx-wYK"/>
+                                    <constraint firstItem="g4y-6W-VTd" firstAttribute="top" secondItem="PaK-h8-hET" secondAttribute="bottom" id="RMj-2V-yRl"/>
                                     <constraint firstAttribute="bottom" secondItem="g4y-6W-VTd" secondAttribute="bottom" id="XTM-ZB-bmL"/>
+                                    <constraint firstItem="PaK-h8-hET" firstAttribute="top" secondItem="VpO-6M-8BO" secondAttribute="top" id="YWx-NT-33c"/>
                                     <constraint firstItem="g4y-6W-VTd" firstAttribute="leading" secondItem="VpO-6M-8BO" secondAttribute="leading" id="ezb-3Q-N0h"/>
                                 </constraints>
                             </view>
@@ -111,7 +118,7 @@
                                 <state key="normal" image="custom – 1"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.63199363962503008" green="1" blue="0.74386573496334352" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.63307178020477295" green="0.99784260988235474" blue="0.99998468160629272" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="afk-gX-TVH" secondAttribute="trailing" id="0Xb-xp-vl6"/>
                             <constraint firstItem="VpO-6M-8BO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="2ry-lx-MC9"/>
@@ -138,7 +145,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Test" width="375" height="300"/>
         <image name="custom – 1" width="100" height="100"/>
+        <image name="custom – 1-2" width="375" height="300"/>
         <image name="shopping-cart" width="256" height="256"/>
     </resources>
 </document>
